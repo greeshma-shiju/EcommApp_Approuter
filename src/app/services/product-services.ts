@@ -5,8 +5,7 @@ export class ProductsService extends ServiceBase {
             next:{
                 revalidate:60
             }
-            // cache:'no-store' 
-            //disabling cache
+            
         });
 
     var products=await productsRes.json();

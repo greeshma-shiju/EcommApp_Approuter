@@ -5,7 +5,7 @@ import GotoCartButton from '../components/GotoCartButton';
 import Link from 'next/link';
 import ProductList from '../components/ProductList';
 import { Metadata } from 'next';
-import { cookies } from 'next/headers'
+
 import { headers } from 'next/headers'
 
 export const metadata: Metadata ={
