@@ -9,7 +9,7 @@ type Props = {
   };
 };
 
-//  Dynamically sets the <title> and <meta> description for the product page
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const productId = Number(params.productId);
 
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-//  Server Component that fetches and renders the product
+
 export default async function ProductDetailPage({ params }: Props) {
   const productId = Number(params.productId);
 
