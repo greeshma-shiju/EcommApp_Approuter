@@ -24,16 +24,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <BootstrapLoader /> 
-        {/* <div className="container-fluid"> */}
-        <>
-        {/* <Nav/> */}
+        
         <CartProvider>
           <Nav/>
         {children}
         </CartProvider>
        <Footer/>
-        {/* </div> */}
-        </>
+       
         </body>
     </html>
   )
